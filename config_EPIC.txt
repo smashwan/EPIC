@@ -11,25 +11,25 @@ MGT_TAG      = mgt
 EPIC_files   = simulations
 EPIC_dat     = EPIC_dat
 LOGS         = LOGS
-LIST_STATES  = ['az', 'ca', 'co', 'ks', 'ne', 'nm', 'ok', 'or', 'tx', 'ut'] ; ['wi','mi','mn']                                      ; List of states to process
+LIST_STATES  = ['ia'] ; ['az', 'ca', 'co', 'ks', 'ne', 'nm', 'ok', 'or', 'tx', 'ut'] ; ['wi','mi','mn']                                      ; List of states to process
 DO_FOLDER    = False ; Does EPIC need to be run from a single folder (True) else False?
 FOLDER_PATH  = XXX ; If DO_FOLDER is True, then specify path of folder from which EPIC has to be run and output collected
 LU_METRIC    = LCC ; Using LCC (SSURGO land capability class) or PI (MSU productivity index)
 LU_TAG       = LU                ; A log file is created as Log_<TAG>.txt
 
 [PATHS]
-prj_dir    = C:\Users\ritvik\Documents\PhD\Projects\
-base_dir   = C:\\Users\\ritvik\\Documents\\PhD\\Projects\\Lake_States\\
-meta_dir   = C:\\Users\\ritvik\\Documents\\PhD\\Projects\\Lake_States\\Meta                      ; Contains WXPM3020.exe
-narr_dir   = C:\\Users\\ritvik\\Documents\\PhD\\Projects\\Lake_States\\Data\\NETCDF\\narr_download ; Directory for NETCDF NARR files
-out_dir    = C:\\Users\\ritvik\\Documents\\PhD\\Projects\\Lake_States\\EPIC                      ; Output directory
-gis_dir    = C:\\Users\\ritvik\\Documents\\PhD\\Projects\\Lake_States\\Data\\GIS\\               ; GIS directory
+prj_dir    = C:\\Users\\areddy01\\PycharmProjects\\EPIC\\
+base_dir   = C:\\Users\\areddy01\\PycharmProjects\\EPIC\\Lake_States\\
+meta_dir   = C:\\Users\\areddy01\\PycharmProjects\\EPIC\\Lake_States\\Meta                      ; Contains WXPM3020.exe
+narr_dir   = C:\\Users\\areddy01\\PycharmProjects\\EPIC\\Lake_States\\Data\\NETCDF\\narr_download ; Directory for NETCDF NARR files
+out_dir    = C:\\Users\\areddy01\\PycharmProjects\\EPIC\\Lake_States\\EPIC                      ; Output directory
+gis_dir    = C:\\Users\\areddy01\\PycharmProjects\\EPIC\\Lake_States\\Data\\GIS\\               ; GIS directory
 sims_dir   = Template/Baseline
 ;;; SSURGO
 srgo_dir   = C:\\Users\\ritvik\\Documents\\PhD\\Projects\\Lake_States\\Data\\GIS\\SSURGO           ; Contains SSURGO input data
 
 [PARAMETERS]
-START_YR    = 1979           ; Starting year of weather data
+START_YR    = 1980           ; Starting year of weather data
 END_YR      = 2014           ; Ending year of weather data
 LAT_BOUNDS  = [41.5,49.5]    ; Lat boundary of study region  
 LON_BOUNDS  = [-98.0,-81.0]  ; Lon boundary of study region
